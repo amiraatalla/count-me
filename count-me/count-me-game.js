@@ -17,10 +17,7 @@ function countMe() {
   
     var tagsClass = document.getElementsByClassName(tagClass.value).length;
 
-    console.log(tags);
-    console.log(tagIdexist)
-    console.log(tagsName);
-    console.log(tagsClass);
+     console.log("all: " + tags + ", Classes:" + tagsClass + ", Id: " + tagIdexist + " , Name: " + tagsName);
 
 }
 
